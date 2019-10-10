@@ -18,11 +18,13 @@ export const isValid = (creditCardNumber) => {
     }
   }
   if ((sumaImpar + sumaPar) % 10 === 0 === true) {
-    return 'valido';
+    const imagenes ='<img src="./img/dota2.jpg" width="200" heigth="150" id="img-uno">, <img src="./img/descarga.jpg" width="200" heigth="150" id="img-dos">,<img src="./img/league.jpg" width="200" heigth="150" id="img-tres">,<img src="./img/pokemongo.jpg" width="200" heigth="150" id="img-cuatro">';
+    return imagenes
   } else {
-    return 'invalido';
+    return 'invaldo';
   }
 }
+
 
 
 

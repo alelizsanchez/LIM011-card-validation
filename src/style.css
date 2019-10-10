@@ -3,7 +3,7 @@
     padding:0;
 } */
 body{
-	background:  #91fdcd;
+	background: #f9c6ba;
     /* min-height: 100vh;
     display: flex; */
 } 
@@ -11,6 +11,7 @@ body{
 	font-family: arial, sans-serif;
 }
 .cars {
+	background: #3c6f9c;
 	border: 1px solid #ccc;
 	max-width: 400px;
 	margin: 0 auto;
