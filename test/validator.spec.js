@@ -1,25 +1,25 @@
 // importamos el objeto `validator`, que contiene la función `isValid`
-import validator from "../src/validator";
+import isValid from "../src/validator.js";
 
-describe('validator', () => {
+// describe('validator', () => {
 
-  it('debería ser un objeto', () => {
-    expect(typeof validator).toBe('object');
+//   it('debería ser un objeto', () => {
+//     expect(typeof isValid.toBe('object'));
+//   });
+
+describe('isValid', () => {
+
+  it('debería ser una función', () => {
+    expect(typeof isValid).toBe('function');
   });
 
-  describe('validator.isValid', () => {
+  it('debería retornar true para "4916048092178577"', () => {
+    // escribe aquí tu test
+    expect(isValid('4916048092178577')).toBe(true)
+  });
 
-    it('debería ser una función', () => {
-      expect(typeof validator.isValid).toBe('function');
-    });
-
-    it.skip('debería retornar true para "4083952015263"', () => {
-      // escribe aquí tu test
-    });
-
-    it.skip('debería retornar false para "1234567890"', () => {
-      // escribe aquí tu test
-    });
-
+  it('debería retornar false para "1234567890"', () => {
+    // escribe aquí tu test
+    expect(isValid('1234567890')).toBe(false)
   });
 });

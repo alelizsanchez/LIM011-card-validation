@@ -1,7 +1,8 @@
-import { isValid } from './validator.js';
+import isValid from './validator.js';
 
-let template = `<div class="cars__title">LEGOLAND</div>
-<p>validar la tarjeta para hacer pagos en juegos online</p>
+let template = `<img src="./img/logo.png" class="logo">
+<h1>Deseas divercion y full adrenalina !!</h1>
+<p>Validar tu tarjeta YA! para realizar tu pago, obtener tu entrada y disfrutar de nuestras ofertas</p>
 <div class="cars">
 <form class="cars__form">
 <label class="cars__label">Usuario:</label>
@@ -9,30 +10,50 @@ let template = `<div class="cars__title">LEGOLAND</div>
 <button type="button" class="cars__button" id="btn-validar">Validar</button>
 </form>
 </div>`;
-// <img src="./img/dota2.jpg" width="200" heigth="150" id="img-uno">
-// <img src="./img/descarga.jpg" width="200" heigth="150" id="img-dos">
-// <img src="./img/league.jpg" width="200" heigth="150" id="img-tres">
-// <img src="./img/pokemongo.jpg" width="200" heigth="150" id="img-cuatro">
+
+const imageGallery = `
+<p> BIENVENIDX !! Su tarjeta fue Valida Disfrute de las ofertas mas extremas de Legoland</p>
+<div class="gallery">
+<ul class="imgegallery">
+<li>
+<img src="./img/img1.jpg" width="150" heigth="75" id="img-uno">
+</li>
+<li>
+<img src="./img/img2.jpg" width="150" heigth="75" id="img-dos">
+</li>
+<li>
+<img src="./img/img3.jpg" width="150" heigth="75" id="img-tres">
+</li>
+<li>
+<img src="./img/img4.webp" width="150" heigth="75" id="img-cuatro">
+</li>
+<li>
+<img src="./img/img5.jpg" width="150" heigth="75" id="img-cinco">
+</li>
+<li>
+<img src="./img/img6.jpg" width="150" heigth="75" id="img-seis">
+</li>
+</ul>
+</div>`;
 
 document.getElementById('contenedor').innerHTML = template;
 const btnvalidar = document.getElementById('btn-validar');
 const valorInput = document.getElementById('btn-input');
-
-
 btnvalidar.addEventListener('click', (event) => {
   event.preventDefault();
   if (valorInput.value !== '') {
-    isValid(valorInput);
-    const pintar = isValid(valorInput);
-    document.getElementById('resultado').innerHTML = pintar;   
-  }else{
-    alert('llena este campo')
-  }
- });
+    const validacion = isValid(valorInput.value);
+    if (validacion === true) {
+      document.getElementById('resultado').innerHTML = imageGallery;
+    } else {
+    alert('tarjeta invalida')
+    }
+  }else {
+      alert('llena este campo')
+    }
+  });
 
-document.getElementById('img-uno').addEventListener('click', () => {
-  document.write('dota');
-})
+
 
 
 

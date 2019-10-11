@@ -1,50 +1,93 @@
-/* *{
+*{
     margin:0; 
     padding:0;
-} */
+}
 body{
-	background: #f9c6ba;
-    /* min-height: 100vh;
-    display: flex; */
+    background: #e6f8f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 } 
 .cars * {
 	font-family: arial, sans-serif;
 }
 .cars {
-	background: #3c6f9c;
-	border: 1px solid #ccc;
-	max-width: 400px;
-	margin: 0 auto;
-	padding: 10px;
+	display: flex;
+    justify-content: center;
+    padding: 10px;
 }
-.cars__title {
-	font-family: 'Josefin Sans', sans-serif;
-	padding: 10px 0;
-	text-align: center;
-	font-size: 18px;
-	font-weight: bold;
+.imgegallery{
+    display:flex;
+}
+
+.cars__form{
+    height: 400px;
+    background: #512c96;
+    box-shadow: 3px 12px 25px 0;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo{
+    height: auto;
+    display:block;
+    margin: 0 auto;
 }
 .cars__label {
-	display: block;
-	margin-bottom: 10px;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 28px;
 }
 .cars__input {
-	display: block;
-	border: 1px solid #ddd;
-	height: 25px;
-	padding: 5px;
-	box-sizing: border-box;
-	font-size: 12px;
-	margin-bottom: 10px;
+    display: block;
+    border: 1px solid #e0ebf7;
+    /* height: 25px; */
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 27px;
+    margin-bottom: 10px;
+    border-style: none;
+    background: none;
+    /* border-bottom: 2px dashed grey; */
+    /* border-style: dashed; */
+    outline: none;
+    width: 80%;
+    text-align: center;
+    color: whitesmoke;
 }
 
 .cars__button {
-	padding: 5px 10px;
-	background-color: #0963ef;
-	border: none;
-	border-radius: 5px;
-	font-size: 12px;
-	font-weight: bold;
-	color: #fff;
-	height: 25px;
+    background-color: #ff5c5c;
+    border: none;
+    border-radius: 21px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    height: 55px;
+    width: 110px;
+    /* margin-bottom: -50%; */
+    position: absolute;
+    top: 210px;
+}
+p{
+	margin: 0 0 20px 0;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 26px;
+    color: #ff5c5c;
+    text-align: center;
+}
+
+.cars__form {
+    max-width: 600px;
+    height: 250px;
+    background: #69cdff;
+    box-shadow: 3px 12px 25px 0;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
 }
