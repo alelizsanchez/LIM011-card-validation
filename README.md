@@ -33,6 +33,13 @@ El público objetivo:
 * La principal solución es la de dar opción de recargar online y evitar la cola innecesaria en el local.
 * Le facilita al público joven validar la tarjeta y hacer su compra de tique.
 
+
+### UX (Diseño de baja fidelidad)
+
+![prototipo2](img/prototipo2.JPEG)
+
+![prototipo1](img/prototipo1.JPEG)
+
 ### Interfaz de usuario (UI)
 
 EL USUARIO
@@ -40,11 +47,13 @@ EL USUARIO
 * Ver el resultado si es válido o no.
 * Al no poner nada no podrá ingresar y le saldrá que el campo este vacío.
 
-### UX (Diseño de baja fidelidad)
 
-![prototipo2](img/prototipo2.jpeg)
-![prototipo1](img/prototipo1.jpeg)
+### UX (Diseño de alta fidelidad)
 
+
+![movie1](img/movie.PNG)
+
+![movie2](img/movie2.PNG)
 
 ## Objetivos de aprendizaje Tarjeta de crédito válida
 
@@ -78,7 +87,7 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 - [x] Uso de ES Modules (import | export).
 
 ### Testing
-- [ ]Testeo de tus funciones.
+- [ ] Testeo de tus funciones.
 
 ### Git y GitHub
 - [x] Comandos de git (add | commit | pull | status | push).

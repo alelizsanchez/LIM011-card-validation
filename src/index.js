@@ -1,6 +1,6 @@
 import isValid from './validator.js';
 
-let template = `<img src="../img/logo2.png" class="logo">
+let template = `<img src="../img/logo2.PNG" class="logo">
 <h1>Diversión y full adrenalina !!</h1>
 <p>Validar tu tarjeta para realizar tu pago, obtener tu entrada y disfrutar de nuestras ofertas.</p>
 <div class="cars">
@@ -14,12 +14,12 @@ let template = `<img src="../img/logo2.png" class="logo">
 const imageGallery = `
 <p> BIENVENIDX!! Su tarjeta fue Validada Disfruta los juegos extremos de JOYLAND</p>
 <div class="gallery">
-<img src="../img/img1.jpg" id="img-uno">
-<img src="../img/img2.jpg" id="img-dos">
-<img src="../img/img3.jpg" id="img-tres">
-<img src="../img/img4.webp" id="img-cuatro">
-<img src="../img/img5.jpg" id="img-cinco">
-<img src="../img/img6.jpg" id="img-seis">
+<img src="../img/img1.JPG" id="img-uno">
+<img src="../img/img2.JPG" id="img-dos">
+<img src="../img/img3.JPG" id="img-tres">
+<img src="../img/img4.WEBP" id="img-cuatro">
+<img src="../img/img5.JPG" id="img-cinco">
+<img src="../img/img6.JPG" id="img-seis">
 </div>`;
 
 const mensaje = `
@@ -28,7 +28,6 @@ const mensaje = `
 const mensajetarjetavacia = `
 <p>completar el campo</p>
 `;
-
 
 document.getElementById('contenedor').innerHTML = template;
 const btnvalidar = document.getElementById('btn-validar');
