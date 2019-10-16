@@ -42,8 +42,8 @@ EL USUARIO
 
 ### UX (Diseño de baja fidelidad)
 
-![prototipo1](img/prototipo2.jpeg)
-![prototipo2](img/prototipo1.jpeg)
+![prototipo2](img/prototipo2.jpeg)
+![prototipo1](img/prototipo1.jpeg)
 
 
 ## Objetivos de aprendizaje Tarjeta de crédito válida
@@ -78,15 +78,15 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 - [x] Uso de ES Modules (import | export).
 
 ### Testing
-- []Testeo de tus funciones.
+- [ ]Testeo de tus funciones.
 
 ### Git y GitHub
 - [x] Comandos de git (add | commit | pull | status | push).
 - [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [] Organizar y dividir el código en módulos (Modularización).
-- [] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Organizar y dividir el código en módulos (Modularización).
+- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 
 
 
