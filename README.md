@@ -16,20 +16,20 @@
 Joyland es una aplicación web diseñada para cubrir la necesidad de usuarios que sean amantes de los juegos mecánicos, adquirir tiques de entrada, ofertas y acumular puntos.
 Al validar la tarjeta estaría realizando el pago, tendrías la visualización de los juegos adquiridos.
 
-## 2. Quiénes son los principales usuarios de producto?
+## 2. ¿Quiénes son los principales usuarios de producto?
 El público objetivo:
 - Padres que desean llevar a sus hijos a jugar.
 - Jóvenes de 15 a 25 con gustos por los juegos mecánicos y que disfruten de la adrenalina.
 - Clientes corporativos que desean regalar pases a sus empleados, hijos de empleados, regalar pases a sus clientes y/o comprar con ofertas. 
 
-## 3. Cuáles son los objetivos de estos usuarios en relación con tu producto
+## 3. ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 * Adquirir su tarjeta de usuario
 * Validar la tarjeta y saldo disponible 
 * Crear un usuario que me permita acumular puntajes y/o algún programa de fidelización por consumos. 
 * Lo más útil: Permitir recargar saldo con pago online (Pasarella de pagos online) para evitar la cola en la boletería.
 * Obtener las ofertas por fin de mes y los puntos acumulados para poder disfrutar de los diversos juegos.
 
-## 4. Cómo crees que el producto que estás creando está resolviendo sus problemas?
+## 4. ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
 * La principal solución es la de dar opción de recargar online y evitar la cola innecesaria en el local.
 * Le facilita al público joven validar la tarjeta y hacer su compra de tique.
 
@@ -42,8 +42,8 @@ EL USUARIO
 
 ### UX (Diseño de baja fidelidad)
 
-![prototipo1](src/img/prototipo2.jpeg)
-![prototipo2](src/img/prototipo1.jpeg)
+![prototipo1](img/prototipo2.jpeg)
+![prototipo2](img/prototipo1.jpeg)
 
 
 ## Objetivos de aprendizaje Tarjeta de crédito válida
@@ -78,15 +78,15 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 - [x] Uso de ES Modules (import | export).
 
 ### Testing
-- [ ] Testeo de tus funciones.
+- []Testeo de tus funciones.
 
 ### Git y GitHub
 - [x] Comandos de git (add | commit | pull | status | push).
 - [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [ ] Organizar y dividir el código en módulos (Modularización).
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [] Organizar y dividir el código en módulos (Modularización).
+- [] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 
 
 
