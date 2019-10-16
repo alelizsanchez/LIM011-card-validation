@@ -12,46 +12,82 @@
 
 ## 1. Resumen del proyecto
 
-# LEGOLAND 
-Fue creada para los usuario que disfrutan de la adrenalina al maximo, evitar las tremendas colas ya que es un centro de diversiones muy conocido, hay juegos de full adrenalina disfruta de ello sin la nesecidad de perder el tiempo ya que al ingresar en la aplicacioon mediante un telefono puede validar su tarjeta y hacer sus pagos respectivos de acuerdo a los juegos que el usuario desea, tambien podra obtener ofertar y acumular puntos.
-
-EL OBJETIVO:
-
-LEGOLAND como empresa su objetivo es levantar las ventas y que los clientes no se quejen de las colas que se hacen para la compra de tiket.
-Mediante la validacion de la tarjeta por via online desde su celular. 
+# JOYLAND 
+Joyland es una aplicación web diseñada para cubrir la necesidad de usuarios que sean amantes de los juegos mecánicos, adquirir tiques de entrada, ofertas y acumular puntos.
+Al validar la tarjeta estaría realizando el pago, tendrías la visualización de los juegos adquiridos.
 
 ## 2. Quiénes son los principales usuarios de producto?
-El publico objetivo:
+El público objetivo:
 - Padres que desean llevar a sus hijos a jugar.
-- Jovenes de 15 a 25 con gustos por los juegos mecanicos y que disfruten de la adrenalina.
-- Clientes corporativos que desean regalar pases a sus empleados, hijos de empleados, regalar pases a sus clientes y/o hacer ofertas. 
-
+- Jóvenes de 15 a 25 con gustos por los juegos mecánicos y que disfruten de la adrenalina.
+- Clientes corporativos que desean regalar pases a sus empleados, hijos de empleados, regalar pases a sus clientes y/o comprar con ofertas. 
 
 ## 3. Cuáles son los objetivos de estos usuarios en relación con tu producto
-
 * Adquirir su tarjeta de usuario
 * Validar la tarjeta y saldo disponible 
 * Crear un usuario que me permita acumular puntajes y/o algún programa de fidelización por consumos. 
-* Lo más útil: Permitir recargar saldo con pago online (pasarella de pagos online) para ecitar la cola en la boletería.
+* Lo más útil: Permitir recargar saldo con pago online (Pasarella de pagos online) para evitar la cola en la boletería.
 * Obtener las ofertas por fin de mes y los puntos acumulados para poder disfrutar de los diversos juegos.
-* El poder comprar de una manera facil y rapida para evitar hacer colas.
-
 
 ## 4. Cómo crees que el producto que estás creando está resolviendo sus problemas?
-
-* La principal solución es la de dar opcion de recargar online y evitar la cola innecesaria en el local.
-* Le facilita al publico joven validar la tarjeta y hacer su compra de tiket.
+* La principal solución es la de dar opción de recargar online y evitar la cola innecesaria en el local.
+* Le facilita al público joven validar la tarjeta y hacer su compra de tique.
 
 ### Interfaz de usuario (UI)
 
 EL USUARIO
-* Debe insertar el numero que quiere validar.
-* Ver el resultado si es valido o no.
-* Al no poner nada no podra ingresar y le saldra que el campo esta vacio.
-
-
+* Debe insertar el número que quiere validar.
+* Ver el resultado si es válido o no.
+* Al no poner nada no podrá ingresar y le saldrá que el campo este vacío.
 
 ### UX (Diseño de baja fidelidad)
+
+![prototipo1](src/img/prototipo2.jpeg)
+![prototipo2](src/img/prototipo1.jpeg)
+
+
+## Objetivos de aprendizaje Tarjeta de crédito válida
+
+A continuación te presentamos los objetivos de aprendizaje de este proyecto. Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplicar** en tu proyecto.
+
+### UX
+
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+
+### HTML y CSS
+
+- [x] Uso correcto de HTML semántico.
+- [x] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+### DOM
+
+- [x] Uso de selectores del DOM.
+- [x] Manejo de eventos del DOM.
+- [ ] Manipulación dinámica del DOM.
+
+### Javascript
+
+- [x] Manipulación de strings.
+- [ ] Uso de condicionales (if-else | switch).
+- [ ] Uso de bucles (for | do-while).
+- [x] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] Declaración correcta de variables (const & let).
+- [x] Uso de ES Modules (import | export).
+
+### Testing
+- [ ] Testeo de tus funciones.
+
+### Git y GitHub
+- [x] Comandos de git (add | commit | pull | status | push).
+- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+
+### Buenas prácticas de desarrollo
+- [ ] Organizar y dividir el código en módulos (Modularización).
+- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+
 
 
 

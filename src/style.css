@@ -16,49 +16,92 @@ body{
     justify-content: center;
     padding: 10px;
 }
-.imgegallery{
-    display:flex;
+.gallery {
+    /* display: flex; */
+    /* height: 300px; */
+    /* width: 240px; */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.16);
+    /* color: #2B4D86; */
+    /* font-size: 21px; */
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    /* vertical-align: top;*/
+    text-align:center;
 }
 
-.cars__form{
-    height: 400px;
-    background: #512c96;
+.cars__form {
+    /* background: #f1bc31; */
+    background: #4de699;
+    /* -webkit-tap-highlight-color: transparent; */
+    /* max-width: 350px; */
+    height: 200px;
     box-shadow: 3px 12px 25px 0;
     border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
+    margin: 20px 15px;
 }
-.logo{
-    height: auto;
-    display:block;
+.logo {
+    height: 120px;
+    display: block;
     margin: 0 auto;
+    padding: 30px;
 }
 .cars__label {
     display: block;
     margin-bottom: 20px;
     font-size: 28px;
+    font-family: 'Delius', cursive;
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: arial, sans-serif; */
+    /* font-family: 'Paytone One', sans-serif; */
 }
 .cars__input {
-    display: block;
-    border: 1px solid #e0ebf7;
-    /* height: 25px; */
-    padding: 5px;
-    box-sizing: border-box;
-    font-size: 27px;
-    margin-bottom: 10px;
-    border-style: none;
-    background: none;
-    /* border-bottom: 2px dashed grey; */
-    /* border-style: dashed; */
-    outline: none;
-    width: 80%;
+
+        display: block;
+        font-family: 'Paytone One', sans-serif;
+        /* font-family: 'Delius', cursive; */
+        /* font-family: 'Fredoka One', cursive; */
+        border: 1px solid #4572fd;
+        /* height: 25px; */
+        padding: 5px;
+        box-sizing: border-box;
+        font-size: 30px;
+        /* margin-bottom: 10px; */
+        border-style: none;
+        /* background: none; */
+        /* border-bottom: 2px dashed grey; */
+        /* border-style: dashed; */
+        outline: none;
+        width: 80%;
+        text-align: center;
+        color: #4572fd;
+
+    
+    
+}
+h1 {
+    font-family: 'Fredoka One', cursive;
+    /* font-family: 'Shrikhand', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Patua One', cursive; */
+    /* font-family: 'Paytone One', sans-serif; */
+    /* font-family: 'Delius', cursive; */
+    font-weight: bold;
+    font-size: 26px;
+    margin: 15px;
     text-align: center;
-    color: whitesmoke;
 }
 
 .cars__button {
+    /* font-family: 'Paytone One', sans-serif; */
+    /* font-family: 'Paytone One', sans-serif; */
     background-color: #ff5c5c;
     border: none;
     border-radius: 21px;
@@ -67,27 +110,78 @@ body{
     color: #fff;
     height: 55px;
     width: 110px;
-    /* margin-bottom: -50%; */
     position: absolute;
-    top: 210px;
+    top: 170px;
+    outline: none;
+    font-family: 'Delius', cursive;
 }
-p{
-	margin: 0 0 20px 0;
-    font-family: 'Paytone One', sans-serif;
-    font-size: 26px;
-    color: #ff5c5c;
+.gallery img {
+    width: 49%;
+    height: 100px;
+}
+p {
+    margin: 0 0 20px 0;
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Delius', cursive;
+    font-size: 16px;
     text-align: center;
+    margin: 20px;
+    color: rebeccapurple;
+    /* text-align: center; */
+    /* margin: 20px; */
 }
 
-.cars__form {
-    max-width: 600px;
-    height: 250px;
-    background: #69cdff;
-    box-shadow: 3px 12px 25px 0;
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
+
+@media screen and (min-width: 724px){
+    h1{
+        /* font-family: 'Shrikhand', cursive; */
+        font-family: 'Fredoka One', cursive;
+        /* font-family: 'Paytone One', sans-serif; */
+        font-size: 70px;
+        margin: 15px;
+        text-align: center;
+    }
+    p{
+        font-family: 'Delius', cursive;
+        font-size: 25px;
+        color: rebeccapurple;
+        text-align: center;
+        margin: 20px;
+    }
+    .cars__button {
+        background-color: #ff5c5c;
+        border: none;
+        border-radius: 21px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        height: 75px;
+        width: 145px;
+        position: absolute;
+        top: 268px;
+        outline: none;
+    }
+    .cars__form {
+        /* background: #f1bc31; */
+        max-width: 550px;
+        width: 616px;
+        height: 300px;
+        box-shadow: 3px 12px 25px 0;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        margin: 15px 15px;
+    }
+    .gallery img {
+        height: 450px;
+    }
+    .logo{
+        height: 170px;
+        display: block;
+        margin: 0 auto;
+        padding: 44px;
+    }
 }
