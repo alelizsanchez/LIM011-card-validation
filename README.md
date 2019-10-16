@@ -38,7 +38,7 @@ El público objetivo:
 
 ![prototipo2](prototipo2.JPEG)
 
-![prototipo1](prototipo1.JPEG)
+![prototipo1](prototipo1.jpeg)
 
 ### Interfaz de usuario (UI)
 
