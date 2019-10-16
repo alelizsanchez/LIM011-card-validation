@@ -36,9 +36,9 @@ El público objetivo:
 
 ### UX (Diseño de baja fidelidad)
 
-![prototipo2](img/prototipo2.JPEG)
+![prototipo2](prototipo2.JPEG)
 
-![prototipo1](img/prototipo1.JPEG)
+![prototipo1](prototipo1.JPEG)
 
 ### Interfaz de usuario (UI)
 
@@ -51,9 +51,9 @@ EL USUARIO
 ### UX (Diseño de alta fidelidad)
 
 
-![movie1](img/movie.PNG)
+![movie1](movie.PNG)
 
-![movie2](img/movie2.PNG)
+![movie2](movie2.PNG)
 
 ## Objetivos de aprendizaje Tarjeta de crédito válida
 
